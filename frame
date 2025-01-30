@@ -1,0 +1,20 @@
+genetic-vectorizer/
+│── core/
+│   ├── encoding.py         # Functions for encoding various input types to vector form
+│   ├── decoding.py         # Functions for reversing the encoding
+│   ├── mutation.py         # Mutation operators
+│   ├── crossover.py        # Crossover operators
+│   ├── selection.py        # Selection methods (tournament, roulette, rank-based)
+│   ├── evolution.py        # Main evolution loop
+│── utils/
+│   ├── preprocess.py       # Helper functions for normalizing data, PCA, tokenization, etc.
+│   ├── visualization.py    # Plot fitness curves, PCA representations, etc.
+│── examples/
+│   ├── evolve_images.py    # Example: evolving images (e.g., evolving pixel patterns)
+│   ├── evolve_text.py      # Example: evolving words/sentences
+│   ├── evolve_audio.py     # Example: evolving waveforms
+│── tests/                  # Unit tests
+│── README.md               # Documentation
+│── setup.py                # Package installation
+│── requirements.txt        # Dependencies
+│── LICENSE
